@@ -59,10 +59,10 @@ function d(el) {
         tb.innerHTML += `
         <tbody>
         <tr>
-        <td>${i+1}</td>
-        <td>${el.name}</td>
-        <td>${el.proffession}</td>
-        <td>${el.age}</td>
+        <td>${i+1}.</td>
+        <td>Name:${el.name}</td>
+        <td>Profession:${el.proffession}</td>
+        <td>Age:${el.age}</td>
         <td><button onclick=d(${i}) type="button" class="btn">Delete</button></td>
         </tr>
         </tbody>
